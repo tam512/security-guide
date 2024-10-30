@@ -1,0 +1,20 @@
+<server description="snoop">
+
+   <featureManager>
+        <feature>jsp-2.3</feature>
+        <feature>appSecurity-2.0</feature>
+    </featureManager>
+
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
+
+    <!-- Basic Registry -->
+    <basicRegistry id="basic" realm="basicRealm">
+      <user name="Admin" password="websphere"/>
+      <user name="User1" password="websphere1"/>
+      <user name="User2" password="websphere2"/>
+    </basicRegistry>
+
+    <applicationManager autoExpand="true" />
+    <application id="libertyDefaultApplication" location="libertyDefaultApplication-1.0.1.ear" name="libertyDefaultApplication" type="ear" />
+
+</server>

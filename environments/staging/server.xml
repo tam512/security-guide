@@ -15,7 +15,7 @@
     httpsPort="${https.port}" />
 
   <!-- tag::location[] -->
-  <!--<include location="userRegistry.xml"/>-->
+  <!-- <include location="userRegistry.xml"/> -->
   <!-- end::location[]-->
 
   <application location="security-guide-11.war" type="war"

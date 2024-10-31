@@ -1,10 +1,10 @@
 version: 1.0
 app:
   maven:
-    groupId: "libertyDefaultApplication"
-    artifactId: "libertyDefaultApplication"
-    version: "1.0.1"
-    type: ear
+    groupId: "sample"
+    artifactId: "security-guide"
+    version: "11"
+    type: war
   instances:
     min: 1
     max: 2
